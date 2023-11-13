@@ -41,7 +41,7 @@ llm_math_chain = LLMMathChain.from_llm(llm)
 math_tool =  Tool(
             name="Calculator",
             func=llm_math_chain.run,
-            description="Useful for when you need to answer questions by performing math operations",
+            description="Useful for when you need to answer questions by performing math operations like addition, subtraction, multiplication, division, and exponentiation.",
         )
 
 if "messages" not in st.session_state:
@@ -57,7 +57,7 @@ if not openai_api_key:
 
 
 tools = get_tools()
-tools = tools.append(math_tool)
+tools.append(math_tool)
 
 garf = initialize_agent(
     agent='conversational-react-description',
