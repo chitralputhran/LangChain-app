@@ -13,12 +13,12 @@ from tools import get_tools
 
 
 st.set_page_config(
-    page_title="Graf Knows Everything", page_icon="🐈", initial_sidebar_state="collapsed"
+    page_title="Garf Knows Everything", page_icon="🐈", initial_sidebar_state="collapsed"
 )
 
 
 st.header("",divider='orange')
-st.title(":orange[_Graf_] 🐈 knows everything!")
+st.title(":orange[_Garf_] 🐈 knows everything!")
 st.header("",divider='orange')
 
 with st.form("my_form"):
