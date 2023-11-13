@@ -41,7 +41,7 @@ llm_math_chain = LLMMathChain.from_llm(llm)
 math_tool =  Tool(
             name="Calculator",
             func=llm_math_chain.run,
-            description="Useful for when you need to answer questions about math.",
+            description="Useful for when you need to answer questions about math and perform math operations",
         )
 
 if "messages" not in st.session_state:
