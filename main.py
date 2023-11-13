@@ -22,7 +22,7 @@ st.title(":orange[_Garf_] 🐈 knows everything!")
 st.header("",divider='orange')
 
 with st.form("my_form"):
-    user_input = st.text_area("Ask me anything about everything! ", "What is the latest version of iOS? What is it raised to 0.43 power?")
+    user_input = st.text_area("Ask me anything about everything! ", "How many moons does Jupiter have today according to Wikipedia? and what is it raised to 0.45 power?")
     submitted = st.form_submit_button("Submit")
 
 
