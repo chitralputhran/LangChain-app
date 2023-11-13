@@ -89,7 +89,7 @@ if submitted:
         complete_answer = ""
         for word in answer.split():
             complete_answer += word + " "
-            time.sleep(0.15)
+            time.sleep(0.10)
             answer_container.info(complete_answer + "▌")
      
         answer_container.success(complete_answer, icon="🍵")   
